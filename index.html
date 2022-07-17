@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site practice</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/jquery.mb.YTPlayer.min.css" rel="stylesheet" />
+    <link href="css/jquery.fullpage.min.css" rel="stylesheet" />
+    <link href="css/slick.css" rel="stylesheet" />
+    <link href="css/aos.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery.fullpage.min.js"></script>
+    <script src="./js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <div class="mopen">
+        <span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="wrap">
+       
+        <header class="header">
+            <div class="container">
+                <h1>
+                    <a href="/">
+                        <img src="./img/logo.png" alt="dd">
+                    </a>
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="">기업소개</a>
+                            <ul>
+                                <li><a href="">menu01</a></li>
+                                <li><a href="">menu02</a></li>
+                                <li><a href="">menu03</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">미디어 룸</a>
+                            <ul>
+                                <li><a href="">menu01</a></li>
+                                <li><a href="">menu02</a></li>
+                                <li><a href="">menu03</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">오시는 길</a></li>
+                        <li><a href="">인재채용</a></li>
+                        
+                    </ul>
+                </nav>
+                
+
+            </div>
+        </header>
+
+
+
+        <main>
+            <section class="main_visual">
+                <div class="main_slider">
+                    <figure class="itm01">
+                        <div class="inner">
+                            <h2>ㅇㅇ하는 기업</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores esse omnis error temporibus </p>
+                            <a href="">more</a>
+                        </div>
+                    </figure>
+                    <figure class="itm02">
+                        <div class="inner">
+                            <h2>나드소프트이슈</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores esse omnis error temporibus </p>
+                            <a href="">more</a>
+                        </div>
+                    </figure>
+                    <figure class="itm03">
+                        <div class="inner">
+                            <h2>나드소프트주력제품</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores esse omnis error temporibus </p>
+                            <a href="">more</a>
+                        </div>
+                    </figure>
+                </div>
+                <div class="slideArrows">
+                    <i class="xi-angle-left"></i>
+                    <i class="xi-angle-right"></i>
+                </div>
+            </section>
+
+            <section class="content01">
+                <h2>What we do</h2>
+                <p>Nadsoft는 ㅇㅇ를 통해 ㅇㅇ한 사회를 만들어가는 ㅇㅇ기업입니다.</p>
+                <div class="container">
+
+                    <figure>
+                        <div class="box">
+                            <img src="./img/con1.png" alt="">
+                        </div>
+                        <strong>사이버 보안</strong>
+                        <a href="">상세보기</a>
+                    </figure>
+                    <figure>
+                        <div class="box">
+                            <img src="./img/con1.png" alt="">
+                        </div>
+                        <strong>사이버 보안</strong>
+                        <a href="">상세보기</a>
+                    </figure>
+                </div>
+                <div class="container">
+                    <figure>
+                        <div class="box">
+                            <img src="./img/con1.png" alt="">
+                        </div>
+                        <strong>사이버 보안</strong>
+                        <a href="">상세보기</a>
+                    </figure>
+                    <figure>
+                        <div class="box">
+                            <img src="./img/con1.png" alt="">
+                        </div>
+                        <strong>사이버 보안</strong>
+                        <a href="">상세보기</a>
+                    </figure>
+                </div>
+
+            </section>
+
+            <section class="fixed_bg">
+                <h2>나드소프트와 함께해보세요</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <a href="">문의하기<i class="xi-arrow-right"></i></a>
+            </section>
+
+            <section class="movie">
+                <div class="container">
+                    <figure>
+                        <video src="./img/movie.mp4" autoplay muted playsinline></video>
+                    </figure>
+                    <div class="dis">
+                        <h2>혹시 영상을 넣는다면</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="movie_arrows">
+                            <i class="xi-play"></i>
+                            <i class="xi-pause"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="utb">
+
+                <div class="dis">
+                    <h2>움직이는 배너</h2>
+                    <p>ㅇㅇㅇㅇㅇㅇㅇ</p>
+                    <div class="movie_arrows">
+                        <i class="xi-play"></i>
+                        <i class="xi-pause"></i>
+                        <i class="xi-heart"></i>
+                        <!-- 하트 누르면 전체창으로 띄움 -->
+                    </div>
+                </div>
+
+                <div id="bgndVideo" class="player" data-property="">
+                </div>
+            </section>
+
+
+            <!-- 미디어 뉴스 슬라이드 -->
+            <section class="hd_section">
+                <div class="container">
+                    <div class="left">
+                        <div class="hd_left_slider">
+                            <figure>
+                                <img src="./img/hd01.png">
+                            </figure>
+                            <figure>
+                                <img src="./img/hd01.png">
+                            </figure>
+                            <figure>
+                                <img src="./img/hd01.png">
+                            </figure>
+                            <figure>
+                                <img src="./img/hd01.png">
+                            </figure>
+                            <figure>
+                                <img src="./img/hd01.png">
+                            </figure>
+                            </div>
+                            </div>
+                            <div class="right">
+                        <h2>Media Roomm</h2>
+                        <p>나드소프트 기사사진</p>
+                            <div class="hd_arrows">
+                                <i class="xi-angle-left"></i>
+                                <i class="xi-angle-right"></i>
+                            </div>
+                            <div class="hd_right_slider">
+                                <figure>
+                                    <img src="./img/hd01.png">
+                                </figure>
+                                <figure>
+                                    <img src="./img/hd01.png">
+                                </figure>
+                                <figure>
+                                    <img src="./img/hd01.png">
+                                </figure>
+                                <figure>
+                                    <img src="./img/hd01.png">
+                                </figure>
+                                <figure>
+                                    <img src="./img/hd01.png">
+                                </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- tab menu 만들기 -->
+            <section class="content_tab">
+                <div class="container">
+                    <div class="left">
+                        <ul class="tab_menu">
+                            <li class="on"><a href="">MENU01</a></li>
+                            <li><a href="">MENU02</a></li>
+                            <li><a href="">MENU03</a></li>
+                        </ul>
+
+                        <div class="tab_content">
+                            <div class="on">
+                                <ul>
+                                    <li><a href="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat cumque culpa vitae quod recusandae nisi itaque suscipit beatae at tempora nam maiores, iure nulla voluptatem veritatis fuga saepe autem quasi..</a><span>2022.06.22</span></li>
+                                    <li><a href="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat cumque culpa vitae quod recusandae nisi itaque suscipit beatae at tempora nam maiores, iure nulla voluptatem veritatis fuga saepe autem quasi..</a><span>2022.06.22</span></li>
+                                    <li><a href="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat cumque culpa vitae quod recusandae nisi itaque suscipit beatae at tempora nam maiores, iure nulla voluptatem veritatis fuga saepe autem quasi..</a><span>2022.06.22</span></li>
+                                    <li><a href="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat cumque culpa vitae quod recusandae nisi itaque suscipit beatae at tempora nam maiores, iure nulla voluptatem veritatis fuga saepe autem quasi..</a><span>2022.06.22</span></li>
+                                    <li><a href="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat cumque culpa vitae quod recusandae nisi itaque suscipit beatae at tempora nam maiores, iure nulla voluptatem veritatis fuga saepe autem quasi..</a><span>2022.06.22</span></li>
+                                </ul>
+                            </div>
+                            <div>02</div>
+                            <div>03</div>
+                        </div>
+                    </div>
+                    <div class="right">
+
+                        <div class="kkmap">
+                            <!-- * 카카오맵 - 지도퍼가기 -->
+                            <!-- 1. 지도 노드 -->
+                            <div id="daumRoughmapContainer1655902079838"
+                                class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+                            <!--
+                            2. 설치 스크립트
+                            * 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+                        -->
+                            <script charset="UTF-8" class="daum_roughmap_loader_script"
+                                src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+                            <!-- 3. 실행 스크립트 -->
+                            <script charset="UTF-8">
+                                new daum.roughmap.Lander({
+                                    "timestamp": "1655902079838",
+                                    "key": "2apiq",
+                                    //"mapWidth": "640",
+                                    // "mapHeight": "360"
+                                    /* 반응형에서 이것저것 수정해줘야함 */
+                                }).render();
+                            </script>
+                        </div><!-- map end -->
+
+                    </div><!-- right end -->
+                </div>
+            </section>
+
+
+        </main>
+
+        <footer class="footer">
+            <div class="top">
+                <div class="container">
+                    <ul class="service">
+                        <li>나드소프트 대표: 박지규</li>
+                        <li>Tel: 051-746-0919</li>
+                        <li>E-mail: nadsoft@nadsoft.com</li>
+                        <li>사업자등록번호: 124-81-00998</li>
+                        <li>주소: 부산광역시 금정구 서동로 193-18 미소드리움 211호</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="bottom">
+                    <div class="family_link">
+                        <select id="fl">
+                            <option value="">family link</option>
+                            <option value="https://www.gobujang.com/">고부장닷컴</option>
+                            <option value="https://whdldi.github.io/nvh/noriverse_home.html">Noriverse</option>
+                        </select>
+                    </div>
+                    <!-- family_link -->
+
+                    <div class="sns">
+                        <a href="http://naver.com" target="blank"><i class="xi-kakaotalk"></i></a>
+                        <a href="http://naver.com" target="blank"><i class="xi-facebook"></i></a>
+                        <a href="https://www.youtube.com/channel/UCvs6quC1zUJMkJvP6HIY7uw" target="blank"><i class="xi-youtube"></i></a>
+                    </div>
+
+                </div>
+                <!-- bottom end -->
+
+            </div>
+            <!-- container end -->
+        </footer>
+
+        <div class="to_top">
+            <i class="xi-arrow-top"></i>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
